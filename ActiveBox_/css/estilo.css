@@ -1,0 +1,35 @@
+/*clases-> class -> .container\
+ID-> id -> #principal		-  >  Selectores 
+Etiqueta -> <> -> body, nav /
+
+
+
+Sintaxis
+	Selector{
+		atributo : "valor"
+		atributo2 : #ddd
+	}
+
+	Selector{
+		atributo : "valor"
+		atributo2 : #ddd
+	}*/
+
+	body{
+		font-family: 'Raleway', sans-serif; 
+	}
+	header{
+		background: url("../img/background_header.jpg") no-repeat;
+		height: 405px;
+		background-size: cover;}
+	#logotipo{margin-top: 40px}
+	header .nav-link{
+		font-size: 13px
+		color: #fff;
+		padding-top: 40px;
+	}
+	header .nav-link:hover{
+		background: #fff;
+		color:#3134ee;
+	}
+	/*body*/
