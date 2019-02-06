@@ -17,19 +17,48 @@ Sintaxis
 
 	body{
 		font-family: 'Raleway', sans-serif; 
+
 	}
 	header{
-		background: url("../img/background_header.jpg") no-repeat;
-		height: 405px;
+		background: url("../img/fondo-header.png");
+		
+		height: 626px;
 		background-size: cover;}
+
 	#logotipo{margin-top: 40px}
+
 	header .nav-link{
-		font-size: 13px
-		color: #fff;
+		font-size: 13px;
+		color: #ffffff;
 		padding-top: 40px;
 	}
 	header .nav-link:hover{
-		background: #fff;
+		background: #ffffff;
 		color:#3134ee;
 	}
-	/*body*/
+	h1{
+		text-align: center;
+		margin-top: 158px;
+		color: #ffffff;
+  		font-weight: 700;
+	}
+	p {
+		text-align: center;
+		color: #ffffff;
+		margin-top: 42px;
+		font-weight: 14px;
+		
+	}
+
+	header .btn {
+		text-align: center;
+		margin-top: 78px;
+		width: 201px; 
+		height: 46px; 
+		background-color: #e84545;
+		color: #fff; 
+		font-size: : : 8px;
+		padding-top: 9px;
+	
+	}
+	
