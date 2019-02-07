@@ -22,13 +22,17 @@ Sintaxis
 	header{
 		background: url("../img/fondo-header.png");
 		
-		height: 626px;
+		height: 800px;
 		background-size: cover;}
 
-	#logotipo{margin-top: 40px}
+	#logotipo{margin-top: 35px}
+
+	header .nav{
+		justify-content: flex-end;
+	}
 
 	header .nav-link{
-		font-size: 13px;
+		font-size: 14px;
 		color: #ffffff;
 		padding-top: 40px;
 	}
@@ -41,15 +45,19 @@ Sintaxis
 		margin-top: 158px;
 		color: #ffffff;
   		font-weight: 700;
-  		font-size: 55px;
+  		font-size: 75px;
 	}
 	p {
 		text-align: center;
 		color: #ffffff;
 		margin-top: 42px;
 		font-weight: 14px;
-		font-size: 19px;
+		font-size: 26px;
 		
+	}
+	header .btn:hover{
+		background: #ffffff;
+		color: #3134ee;
 	}
 
 	header .btn {
